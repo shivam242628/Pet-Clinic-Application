@@ -14,7 +14,7 @@
     </parent>
     <groupId>com.shivam</groupId>
     <artifactId>pet-clinic-application</artifactId>
-    <version>0.0.4</version>
+    <version>0.0.5-SNAPSHOT</version>
     <name>pet-clinic-application</name>
     <description>Pet Clinic Application</description>
 
@@ -45,7 +45,7 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/shivam242628/Pet-Clinic-Application.git</developerConnection>
-      <tag>pet-clinic-application-0.0.4</tag>
+      <tag>HEAD</tag>
   </scm>
 
 </project>
