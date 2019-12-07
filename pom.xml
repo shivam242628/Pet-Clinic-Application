@@ -15,7 +15,7 @@
     </parent>
     <groupId>com.shivam</groupId>
     <artifactId>pet-clinic-application</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.3-SNAPSHOT</version>
     <name>pet-clinic-application</name>
     <description>Pet Clinic Application</description>
 
