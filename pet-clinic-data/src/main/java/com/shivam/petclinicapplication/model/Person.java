@@ -1,6 +1,6 @@
 package com.shivam.petclinicapplication.model;
 
-public class Person {
+public class Person extends BaseEntity {
 
     private String firstName;
     private String lastName;
