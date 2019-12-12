@@ -9,7 +9,10 @@
 
     <artifactId>pet-clinic-web</artifactId>
 
+
     <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
         <!-- Web dependencies -->
         <webjars-bootstrap.version>3.3.6</webjars-bootstrap.version>
         <webjars-jquery-ui.version>1.11.4</webjars-jquery-ui.version>
@@ -22,6 +25,7 @@
             <artifactId>pet-clinic-data</artifactId>
             <groupId>com.shivam</groupId>
             <version>0.0.5-SNAPSHOT</version>
+            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -78,6 +82,15 @@
 <build>
     <plugins>
         <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.6.0</version>
+            <configuration>
+                <source>1.8</source>
+                <target>1.8</target>
+            </configuration>
+        </plugin>
+        <plugin>
             <groupId>ro.isdc.wro4j</groupId>
             <artifactId>wro4j-maven-plugin</artifactId>
             <version>${wro4j.version}</version>
@@ -107,5 +120,12 @@
     </plugins>
 </build>
 
+    <repositories>
+        <repository>
+            <id>central</id>
+            <name>Central</name>
+            <url>http://repo1.maven.org/maven2</url>
+        </repository>
+    </repositories>
 
 </project>
