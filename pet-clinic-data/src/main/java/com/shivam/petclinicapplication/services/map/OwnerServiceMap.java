@@ -2,7 +2,6 @@ package com.shivam.petclinicapplication.services.map;
 
 import com.shivam.petclinicapplication.model.Owner;
 import com.shivam.petclinicapplication.model.Pet;
-import com.shivam.petclinicapplication.model.PetType;
 import com.shivam.petclinicapplication.services.OwnerService;
 import com.shivam.petclinicapplication.services.PetService;
 import com.shivam.petclinicapplication.services.PetTypeService;
